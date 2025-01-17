@@ -2,7 +2,7 @@ const { spawnSync, spawn } = require('child_process')
 const { existsSync, writeFileSync } = require('fs')
 const path = require('path')
 
-const SESSION_ID = 'levanter_17606290b1ddd04e07b3d279f202a0098c' // Edit this line only, don't remove ' <- this symbol
+const SESSION_ID = 'levanter_177786ce644d1d4a64b9ec13447838dd60' // Edit this line only, don't remove ' <- this symbol
 
 let nodeRestartCount = 0
 const maxNodeRestarts = 5
